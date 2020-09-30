@@ -6,7 +6,7 @@
 <script>
   import Pokedex from src/data.js;
   var id = "ninetales";
-  document.getElementById("monname").innerHTML = Pokedex.id.name;
+  document.getElementById("monname").innerHTML = Pokedex[id].name;
   document.getElementById('monpic').src='https://www.smogon.com/dex/media/sprites/xy/' + id + '.gif';
   
   
