@@ -1593,4 +1593,4 @@ var pokedex = {
 		weightkg: 800,
 	},
 };
-export pokedex as Pokedex;
+export {pokedex};
