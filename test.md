@@ -4,5 +4,5 @@
 <br>
 <script>
   import Pokedex from src/data.js;
-  document.getElementById("monpic").style.src = "https://www.smogon.com/dex/media/sprites/xy/ninetales-alola.gif";
+  document.getElementById("monpic").src = "https://www.smogon.com/dex/media/sprites/xy/ninetales-alola.gif";
 </script>
