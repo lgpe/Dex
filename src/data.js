@@ -1,4 +1,4 @@
-var pokedex = {
+export let pokedex = {
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
@@ -1593,4 +1593,3 @@ var pokedex = {
 		weightkg: 800,
 	},
 };
-export {pokedex};
