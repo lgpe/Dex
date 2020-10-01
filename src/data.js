@@ -1,3 +1,12 @@
+var id = "ninetales";
+document.getElementById("monname").innerHTML = "owo";
+document.getElementById('monpic').src='https://www.smogon.com/dex/media/sprites/xy/' + id + '.gif';
+
+
+function switchForm(form) {
+  document.getElementById('monpic').src='https://www.smogon.com/dex/media/sprites/xy/' + form + '.gif';
+}
+
 export let pokedex = {
 	bulbasaur: {
 		num: 1,
